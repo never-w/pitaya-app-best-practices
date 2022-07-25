@@ -1,7 +1,13 @@
 ---
+title: 列表页
 nav:
   title: Components
+  order: 1
   path: /components
+group:
+  title: State
+  order: 1
+  path: /basis/state
 ---
 
 ## Foo
