@@ -26,13 +26,18 @@ import React, { useRef, useState } from 'react';
 import Button from '@/components/_bailu-bate/button';
 import type { PagingInstance } from '@/components/paging';
 import PagingGQL from '@/components/paging/gql';
+// 具体接口参数类型
 import type { PageSaleReturnInput } from '@/graphql/generated/types';
+// 具体枚举类型
 import { InOrderType } from '@/graphql/generated/types';
+// 具体接口返回体类型
 import type { PageSaleReturnQuery } from '@/graphql/operations/sell/__generated__/return.generated';
+// 具体接口
 import { PageSaleReturnDocument } from '@/graphql/operations/sell/__generated__/return.generated';
 import useDefaultStatusBar from '@/hooks/_business/useDefaultStatusBar';
 import useNavigationSearch from '@/hooks/useNavigationSearch';
 import type { RootStackScreenProps } from '@/router';
+// 默认时间段工具函数
 import { getStartEndDayjs } from '@/utils/time';
 
 import Filter from './components/filter';
@@ -78,8 +83,10 @@ const SaleReturnList: FC<IProps> = ({ navigation }) => {
       <PagingGQL<PageSaleReturnList, PageSaleReturnInput>
         ref={pagingRef}
         gql={PageSaleReturnDocument}
+        // 具体接口返回体key值
         gqlKey="pageSaleReturn"
         defaultParams={paramsData}
+        // 具体接口参数key值
         gqlParamKey="pageSaleReturnInput"
         keyExtractor={(item) => item?.inOrderId}
         renderItem={renderItem}
