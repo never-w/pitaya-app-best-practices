@@ -7,4 +7,7 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   locales: [['zh-CN', '中文']],
+  resolve: {
+    passivePreview: true,
+  },
 });
