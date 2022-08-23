@@ -1,5 +1,5 @@
 ---
-title: 生产app最佳实践--lichang
+title: 生产app最佳实践
 hero:
   title: 生产app最佳实践
   desc: 生产app最佳实践规范
