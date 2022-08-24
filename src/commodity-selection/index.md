@@ -6,12 +6,12 @@ nav:
   order: 1
   path: /practices
 group:
-  title: 商品选择
+  title: 动态表单
   order: 1
   path: /practices/commodity-selection
 ---
 
-## 代码（参照销售退货）
+## 代码（次品销售选择商品）
 
 <div style="display: flex;">
 
