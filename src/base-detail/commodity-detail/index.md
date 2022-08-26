@@ -15,7 +15,7 @@ group:
 
 <div style="display: flex;">
 
-<image src="./images/commodity-detail.png" style="width: 375px; height: 320px; margin-right: 50px;" />
+<image src="./images/commodity-detail.png" style="width: 375px; height: 350px; margin-right: 50px;" />
 
 ```tsx
 import { Description } from '@fruits-chain/react-native-xiaoshu';

@@ -15,7 +15,7 @@ group:
 
 <div style="display: flex;">
 
-<image src="./images/base-form.png" style="width: 375px; height: 324px; margin-right: 50px;" />
+<image src="./images/base-form.png" style="width: 375px; height: 350px; margin-right: 50px;" />
 
 ```tsx
 import type { FormInstance } from '@fruits-chain/react-native-xiaoshu';
